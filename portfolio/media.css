@@ -1,0 +1,358 @@
+@media (max-width:991px) {
+
+    .home-about a{
+        font-size: 15px;
+    }
+    .header{
+        background-color: white;
+        top: 0;
+        border-bottom: 1px solid rgba(155, 154, 154, 0.637);
+    }
+    .h_all{
+        height: 38px;
+    }
+    .hamburger-icon {
+        display: flex;
+
+    }
+    .header_right{
+        display: none;
+    }
+    .home{
+        background-position: 50%;
+    }
+
+    .hi_all{
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse ;
+        justify-content: center;
+        margin-top: 58px;
+        padding: 50px 0 ;
+        
+        
+    }
+    .htmllogo{
+        display: none;
+    }
+    .csslogo{
+        display: none;
+    }
+    .jslogo{
+        display: none;
+    }
+    .home-img img{
+        width: 35%;
+        margin-bottom: 30px;
+        
+    }
+    .home_left h1{
+        font-size: 35px;
+    }
+    .home_left h2{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .home_left h3{
+        font-size: 15px;
+        padding-top: 0;
+    }
+    .home_left p{
+        font-size: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .home_left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-about{
+        margin-bottom: 20px;
+    }
+    .a-all{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    .number1{
+        width: 230px;
+        left: auto;
+        position: unset;
+        margin-bottom: 20px;
+        box-shadow: 25px 0 65px rgb(54 32 152 / 11%);
+        
+    }
+    .number2{
+        right: auto;
+        position: unset;
+        box-shadow: 25px 0 65px rgb(54 32 152 / 11%);
+     
+        
+    }
+    .about-img{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .desing-a img{
+        display: none;
+    }
+    .desing-a-r img{
+        display: none;
+    }
+    .about-text{
+        width: 90%;
+    }
+    .about-text h1{
+        font-size: 30px;
+    }
+    .about-text p{
+        font-size: 20px;
+    }
+    .number2 span{
+        margin-top: -5px;
+    }
+    .desing-p-l{
+        display: none;
+    }
+    .desing-p-r{
+        display: none;
+    }
+    .portfolio{
+        margin-top: 40px;
+    }
+    .portfolio h1{
+        font-size: 40px;
+    }
+    .p-all .p{
+        width: 37%;
+    }
+    .desing-s-l{
+        display: none;
+    }
+    .s-all{
+        height: auto;
+        margin-top: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .skils-left{
+        width: 90%;
+    }
+    .main{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .skils_right img{
+        width: 50%;
+    }
+    .desing-c-r{
+        display: none;
+    }
+    .desing-c-l{
+        display: none;
+    }
+    .c-all{
+        height: auto;
+        margin-top: 40px;
+    }
+    .contact-main{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about_right{
+        width: 90%;
+    }
+    .about_left{
+        width: 90%;
+    }
+    .about-texts{
+        font-size: 15px;
+    }
+    .about-icon{
+        padding: 15px 20px;
+    }
+}
+
+    @media (max-width:768px) {
+        .home-about a{
+            font-size: 15px;
+        }
+        .home-img img{
+            width: 35%;
+            margin-bottom: 0;
+        }
+        .home_left h3{
+            font-size: 15px;
+            padding-top: 5px;
+        }
+        .home_left h1{
+            font-size: 30px;
+        }
+        .home_left h2{
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+        .home_left p{
+            font-size: 10px;
+            margin-bottom: 15px;
+        }
+
+
+
+        .about-img img{
+            width: 100%;
+        }
+
+        .about-text h1{
+            font-size: 20px;
+        }
+        .about-text h3{
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        .about-text p{
+            font-size: 15px;
+            letter-spacing: 0;
+            margin-bottom: 20px;
+        }
+        .about-text a{
+            font-size: 20px;
+        }
+        #count1{
+            font-size: 40px;
+        }
+        #count2{
+            font-size: 40px;
+        }
+        .number2 span{
+            font-size: 35px;
+        }
+        .a-btn{
+            width: 110px;
+        }
+    }
+
+    @media (max-width:576px) {
+        .offcanvas-body a{
+            font-size: 20px;
+        }
+        .close-btn .fas{
+            font-size: 20px;
+        }
+        .active{
+            top: 59px;
+        }
+        .header_left p{
+            font-size: 25px;
+        }
+        .hamburger-icon{
+            padding: 0;
+        }
+        .hamburger-icon div{
+            height: 3px;
+        }
+        .home-img img{
+            width: 60%;
+            margin-bottom: 10px;
+        }
+        .home_left h3{
+            font-size: 17px;
+        }
+        .home_left h1{
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        .home_left h2{
+            font-size: 10px;
+        }
+        .home_left p{
+            font-size: 10px;
+        }
+        .a-all{
+            flex-direction: column;
+            height: auto;
+            text-align: center;
+            margin-top: 20px;
+            
+        }
+        .number1{
+            width: 230px;
+            left: auto;
+            position: unset;
+            margin-bottom: 20px;
+            
+        }
+        .number2{
+            right: auto;
+            position: unset;
+         
+            
+        }
+        .about-img{
+        
+            display: flex;
+            flex-direction: column;
+        }
+        .about-img img{
+            width: 100%;
+        }
+        .desing-a img{
+            display: none;
+        }
+        .desing-a-r img{
+            display: none;
+        }
+        .about-text h1{
+            font-size: 16px;
+        }
+        .about-text h3{
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+        .about-text p{
+            font-size: 15px;
+            letter-spacing: 0;
+            margin-bottom: 20px;
+        }
+        .about-text a{
+            font-size: 15px;
+        }
+        #count1{
+            font-size: 40px;
+        }
+        #count2{
+            font-size: 40px;
+        }
+        .number2 span{
+            font-size: 35px;
+        }
+        .p-all .p{
+            width: 60%;
+        }
+        .title h3{
+            font-size: 17px;
+        }
+        .about-texts{
+            font-size: 13px;
+        }
+        .home{
+            background-position: 50%;
+        }
+        .barline{
+            height: 8px;
+        }
+        .countbar{
+            height: 8px;
+        }
+        .title h3{
+            font-size: 15px;
+        }
+
+    }
